@@ -2,12 +2,13 @@ import TreeCard from "./assets/Components/TreeCard";
 import Header from "./assets/Components/Header";
 import Footer from "./assets/Components/Footer";
 import Button from "./assets/Components/Button";
+import UseState from "./assets/Components/UseState";
 
 export default function app() {
   return (
     <div className="treecard-container">
-      <Header />
       <h1>Cool Trees!</h1>
+      <UseState></UseState>
       <TreeCard
         treeName="Baobab"
         location="Across Africa"
@@ -23,7 +24,6 @@ export default function app() {
         location="California"
         imgLink="https://images.unsplash.com/photo-1558900812-b4a72552a5f6?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       />
-      <Footer />
     </div>
   );
 }
