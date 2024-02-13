@@ -1,6 +1,7 @@
 import TreeCard from "./assets/Components/TreeCard";
 import Header from "./assets/Components/Header";
 import Footer from "./assets/Components/Footer";
+import Button from "./assets/Components/Button";
 
 export default function app() {
   return (
