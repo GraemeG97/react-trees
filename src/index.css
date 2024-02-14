@@ -1,8 +1,12 @@
 * {
   box-sizing: border-box;
   font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background-color: lightcyan;
 }
 
 .treecard-container {
   display: flex;
+  flex-direction: row;
+  text-align: center;
 }

@@ -1,7 +1,7 @@
 .tree-card {
-  height: 50vh;
-  width: 30vw;
-  margin: 10px;
+  height: 55vh;
+  width: 20vw;
+  margin: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
